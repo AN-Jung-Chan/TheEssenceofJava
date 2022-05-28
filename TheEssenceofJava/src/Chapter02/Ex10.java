@@ -1,6 +1,6 @@
-package Step01;
+package Chapter02;
 
-public class Ex02 {
+public class Ex10 {
 	public static void main(String[] args) {
 		System.out.println("하하 하하하하하");
 	}
