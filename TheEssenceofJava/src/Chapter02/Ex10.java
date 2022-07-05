@@ -10,7 +10,7 @@ public class Ex10 {
 		
 		System.out.println(i);
 		System.out.println(j);
-		
+		// 부호연산자 ++ : 값 1증가 , -- : 값 1감소 
 		// i++ 값이 참조된 후에 증가
 		// ++i 값이 참조되기 전에 증가
 		int k = 0;
