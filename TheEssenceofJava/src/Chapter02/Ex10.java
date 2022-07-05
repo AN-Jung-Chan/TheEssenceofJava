@@ -1,5 +1,5 @@
 package Chapter02;
-//연산자 쉽게 이해하기!
+//연산자 쉽게 이해하기! 사용하는거 위주
 public class Ex10 {
 	public static void main(String[] args) {
 		
@@ -19,7 +19,7 @@ public class Ex10 {
 		System.out.println(l++);
 		System.out.println(l);
 		
-		System.out.println("-------------------------------------");
+		System.out.println("-- 단항 연산자 --");
 		// ! 논리부정 - 내용의 반대되는 값을 표현, boolean에서만 사용가능
 		boolean bool1 = false;
 		System.out.println("a = " + bool1);
@@ -28,6 +28,11 @@ public class Ex10 {
 		boolean bool2 = 5 > 3;
 		System.out.println("c = " + bool2);
 		System.out.println("d = " + !(5 > 3));
+		
+		System.out.println("-- 관계 연산자 -- ");
+		
+		
+		
 		
 		
 	}
