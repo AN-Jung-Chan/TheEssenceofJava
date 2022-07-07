@@ -36,5 +36,15 @@ public class Ex11 {
 		String str = x == 1 ? "남성" : "여성";
 		System.out.println("str = " + str);
 
+		System.out.println();
+
+		System.out.println("-- 배정 연산자 --");
+
+		byte a = 10;
+
+//		a = a + 10; // 인 경우에는 int 형데이터로 변환되므로 배정대입 연산자를 사용한다. 에러난다는 말.
+		a += 10;
+		System.out.println("a = " + a);
+
 	}
 }
