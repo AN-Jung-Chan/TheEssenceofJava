@@ -8,15 +8,15 @@ public class Ex12 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-		// 예제1 - 문자를 입력받아 그대로 출력하는 프로그램.
 		System.out.println("-- 예제 1 --");
+		// 예제1 - 문자를 입력받아 그대로 출력하는 프로그램.
 
 		System.out.print("아무 글이나 입력하면 그대로 출력해줌 : ");
 		String str = br.readLine();
 		System.out.println("입력한 글은 : " + str);
 
-		// 예제2 - 값을 받아들여 60점 이상이면 합격 60점 미만이면 불합격이라는 글자를 출력하는 프로그램을 만드시오.
 		System.out.println("-- 예제 2 --");
+		// 예제2 - 값을 받아들여 60점 이상이면 합격 60점 미만이면 불합격이라는 글자를 출력하는 프로그램을 만드시오.
 
 		System.out.println("점수를 입력하여 합격 여부를 확인하시오.(단, 정수만 입력)");
 		System.out.println("점수입력 : ");
@@ -33,8 +33,8 @@ public class Ex12 {
 //		else
 //			System.out.println("결과는 불합격!");
 
-		//예제3 - 산술연산자중 하나를 입력받아 맞는지 아닌지 확인하는 프로그램을 만드시오.
 		System.out.println("-- 예제 3 --");
+		//예제3 - 산술연산자중 하나를 입력받아 맞는지 아닌지 확인하는 프로그램을 만드시오.
 
 //		char ch;
 //		boolean bool;
