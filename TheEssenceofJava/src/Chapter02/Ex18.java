@@ -1,7 +1,9 @@
 package Chapter02;
 
+import java.io.*;
+
 public class Ex18 {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 
 		/*
 		 * 예제 - 별 출력하기 다양한 별모양 출력하기
@@ -178,26 +180,166 @@ public class Ex18 {
 //		}
 //		
 //		System.out.println();
-		System.out.println("-- 예제 10 -- ");
-		/*
-		 *     *
-		 *    ** 
-		 *   *** 
-		 *  ****     
-		 * *****      
-		 */
-		
-		for(int i = 1; i < 6; i++) {  // 5줄 행
-			for (int j = 5; j > i; j--) { // 띄어쓰기 
-				System.out.print(" ");
-			}
-			
-			for(int k = 1; k < i+1; k++) { // 별 
+//		System.out.println("-- 예제 11 -- ");
+//		/*
+//		 *     *
+//		 *    ** 
+//		 *   *** 
+//		 *  ****     
+//		 * *****      
+//		 */
+//		
+//		for(int i = 1; i < 6; i++) {  // 5줄 행
+//			for (int j = 5; j > i; j--) { // 띄어쓰기 
+//				System.out.print(" ");
+//			}
+//			
+//			for(int k = 1; k < i+1; k++) { // 별 
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//		
+//		System.out.println();
+//		System.out.println("-- 예제 12 -- ");
+//		/*
+//		 * *
+//		 * **
+//		 * ***
+//		 * ****
+//		 * *****
+//		 * ****
+//		 * ***
+//		 * **
+//		 * *
+//		 */
+//		
+//
+//		for (int i = 1; i <= 5; i++) {
+//			for (int j = 1; j <= i; j++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//
+//		for (int k = 1; k <= 4; k++) {
+//			for (int l = 4; l >= k; l--) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//
+//		System.out.println();
+//		// 풀어서
+//
+//		for (int i = 1; i <= 5; i++) {
+//
+//			// 별
+//			for (int j = 1; j <= i; j++) {	// i=1번째 * 1개부터 i=5번째까지 하나씩 늘려서 *찍기
+//				System.out.print("*");
+//			}
+//
+//			// 스페이스
+//			for (int j = 5; j >= i; j--) {	// i=1번째 띄어쓰기 5개부터 i=5번째까지 하나씩 줄려서 띄어쓰기 찍기
+//				System.out.print(" ");
+//			}
+//
+//			System.out.println();
+//		}
+//
+//		for (int k = 1; k <= 4; k++) {
+//
+//			// 별
+//			for (int l = 4; l >= k; l--) {	// k=1번째 * 4개부터 k=5번째까지 하나씩 줄여서 *찍기
+//				System.out.print("*");
+//			}
+//
+//			// 스페이스
+//			for (int l = 1; l <= k; l++) {	// k=1번째 띄어쓰기 1개부터 k=5번째까지 하나씩 늘려서 띄어쓰기 찍기
+//				System.out.print(" ");
+//			}
+//
+//			System.out.println();
+//		}
+
+//		System.out.println();
+//		System.out.println("-- 예제 13 -- ");
+//		/*
+//		 * *****
+//		 * ****
+//		 * ***
+//		 * **
+//		 * *
+//		 * **
+//		 * ***
+//		 * ****
+//		 * *****
+//		 */
+
+		// 줄어드는 *
+		for (int i = 1; i <= 5; i++) {
+			for (int j = 5; j >= i; j--) {
 				System.out.print("*");
 			}
 			System.out.println();
 		}
 		
+		// 늘어나는 *
+		for (int i = 1; i <= 4; i++) {
+			for (int j = 1; j <= i+1; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+//		System.out.println();
+//		System.out.println("-- 예제 14 -- ");
+//		/*
+//		 * *****
+//		 *  ****
+//		 *   ***
+//		 *    **
+//		 *     *
+//		 *    **
+//		 *   ***
+//		 *  ****
+//		 * ***** 
+//		 */
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+//		
+//		System.out.println();
+//		System.out.println("-- 예제 15 -- ");
+//		/*
+//		 *     *
+//		 *    **
+//		 *   ***
+//		 *  ****
+//		 * *****
+//		 *  ****
+//		 *   ***
+//		 *    **
+//		 *     *
+//		 */
 		
 		
 		
@@ -220,7 +362,5 @@ public class Ex18 {
 		
 		
 		
-		
-
 	}
 }
