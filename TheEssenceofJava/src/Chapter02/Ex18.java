@@ -261,7 +261,7 @@ public class Ex18 {
 //
 //			System.out.println();
 //		}
-
+//
 //		System.out.println();
 //		System.out.println("-- 예제 13 -- ");
 //		/*
@@ -275,23 +275,23 @@ public class Ex18 {
 //		 * ****
 //		 * *****
 //		 */
-
-		// 줄어드는 *
-		for (int i = 1; i <= 5; i++) {
-			for (int j = 5; j >= i; j--) {
-				System.out.print("*");
-			}
-			System.out.println();
-		}
-		
-		// 늘어나는 *
-		for (int i = 1; i <= 4; i++) {
-			for (int j = 1; j <= i+1; j++) {
-				System.out.print("*");
-			}
-			System.out.println();
-		}
-		
+//
+//		// 줄어드는 *
+//		for (int i = 1; i <= 5; i++) {
+//			for (int j = 5; j >= i; j--) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//		
+//		// 늘어나는 *
+//		for (int i = 1; i <= 4; i++) {
+//			for (int j = 1; j <= i+1; j++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//		
 //		System.out.println();
 //		System.out.println("-- 예제 14 -- ");
 //		/*
@@ -305,27 +305,32 @@ public class Ex18 {
 //		 *  ****
 //		 * ***** 
 //		 */
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+//		
+//		for (int i = 0; i < 5; i++) {
+//			// 띄어쓰기
+//			for (int j = 0; j < i; j++) {
+//				System.out.print(" ");
+//			}
+//
+//			// 별
+//			for (int j = 5; j > i; j--) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//
+//		for (int i = 1; i <= 4; i++) {
+//			// 띄어쓰기
+//			for (int j = 4; j > i; j--) {
+//				System.out.print(" ");
+//			}
+//
+//			// 별
+//			for (int j = 0; j < i+1; j++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
 //		
 //		System.out.println();
 //		System.out.println("-- 예제 15 -- ");
@@ -340,27 +345,32 @@ public class Ex18 {
 //		 *    **
 //		 *     *
 //		 */
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
+		for (int i = 1; i <= 5; i++) {
+			// 띄우기
+			for (int j = 5; j > i; j--) {
+				System.out.print(" ");
+			}
+
+			// 별
+			for (int j = 0; j < i; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+
+		for (int i = 0; i < 4; i++) {
+			// 띄어쓰기
+			for (int j = 0; j < i+1; j++) {	// j < i; 
+				System.out.print(" ");
+			}
+
+			// 별
+			for (int j = 4; j > i; j--) {	// j > i-1; 해도 같은 결과
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+
 	}
 }
