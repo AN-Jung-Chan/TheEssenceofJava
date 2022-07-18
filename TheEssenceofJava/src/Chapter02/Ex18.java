@@ -396,7 +396,7 @@ public class Ex18 {
 //		}
 
 //		System.out.println();
-//		System.out.println("-- 예제 15 -- ");
+//		System.out.println("-- 예제 16 -- ");
 //		/*
 //		 * *********
 //		 *  *******
