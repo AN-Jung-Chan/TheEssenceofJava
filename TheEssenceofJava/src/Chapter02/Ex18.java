@@ -396,7 +396,7 @@ public class Ex18 {
 //		}
 
 //		System.out.println();
-//		System.out.println("-- 예제 16 -- ");
+//		System.out.println("-- 예제 17 -- ");
 //		/*
 //		 * *********
 //		 *  *******
@@ -404,27 +404,78 @@ public class Ex18 {
 //		 *    ***
 //		 *     *
 //		 */
-
-		for (int i = 1; i <= 5; i++) {
-			// 띄어쓰기
-			for (int j = 1; j < i; j++) {
+//		
+//		for (int i = 1; i <= 5; i++) {
+//			// 띄어쓰기
+//			for (int j = 1; j < i; j++) {
+//				System.out.print(" ");
+//			}
+//
+//			// 별
+//			for (int j = i; j <= 2*5-i; j++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+//
+		
+//		System.out.println();
+//		System.out.println("-- 예제 18 -- ");
+//		/*
+//		 *     *
+//		 *    *** 
+//		 *   ***** 
+//		 *  ******* 
+//		 * *********
+//		 *  *******
+//		 *   *****
+//		 *    ***
+//		 *     *
+//		 */
+		
+		for(int i = 1; i <= 5; i++) {
+			// 줄어드는 띄어쓰기
+			for(int j = 5; j > i; j--) {
 				System.out.print(" ");
 			}
-
+			
 			// 별
-			for (int j = i; j <= 2*5-i; j++) {
+			for (int j = 1; j <= i*2-1; j++) {
 				System.out.print("*");
 			}
 			System.out.println();
 		}
-
+		
+		for (int i = 1; i <= 4; i++) {
+			// 늘어다는 띄어쓰기
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 	
 		
+//		System.out.println();
+//		System.out.println("-- 예제 16 -- ");
 		
 		
+//		System.out.println();
+//		System.out.println("-- 예제 16 -- ");
 		
 		
+//		System.out.println();
+//		System.out.println("-- 예제 16 -- ");
 		
 		
 		
