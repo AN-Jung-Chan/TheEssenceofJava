@@ -122,7 +122,9 @@ public class Ex19 {
 //			}
 //			System.out.println("성적 : " + score + "점은 " + grade + " 입니다.");
 //		}
-		
+//		
+//		System.out.println("-- 예제3 --");
+//		System.out.println();
 		
 		
 		
