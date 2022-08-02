@@ -1,7 +1,9 @@
 package Chapter02;
 
+import java.io.IOException;
+
 public class Ex20 {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		/*
 		 * break; 
 		 * switch ~ case, for, while, do ~ while 등의 반복문에서 하나만 종료
@@ -15,6 +17,7 @@ public class Ex20 {
 			if (i % 2 == 0) continue;	// i값이 짝수라면 continue 동작이 된다. 그러면 현재 나머지 코드는 건너뛴다.
 			System.out.println("i = " + i); // i값 출력
 		}
+		
 		System.out.println();
 		System.out.println("-- 예제 2 --");
 		/*
